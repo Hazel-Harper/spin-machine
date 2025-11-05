@@ -68,6 +68,7 @@ contract SpinMachine is ZamaEthereumConfig {
     }
     
     // ============ Constructor ============
+    /// @notice Initialize the contract and set the owner
     constructor() {
         _owner = msg.sender;
     }
