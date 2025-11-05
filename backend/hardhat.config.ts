@@ -16,7 +16,8 @@ import "solidity-coverage";
 // Or via hardhat vars: npx hardhat vars set MNEMONIC
 const MNEMONIC: string = process.env.MNEMONIC || vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
-// Support custom RPC URL for Sepolia (can be set via PowerShell: $env:SEPOLIA_RPC_URL="your rpc url")
+// Support custom RPC URL for Sepolia
+// Can be set via PowerShell: $env:SEPOLIA_RPC_URL="your rpc url"
 const SEPOLIA_RPC_URL: string = process.env.SEPOLIA_RPC_URL || "";
 
 const config: HardhatUserConfig = {
