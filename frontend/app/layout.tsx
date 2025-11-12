@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "SpinMachine - Encrypted Lottery",
-  description: "A fair, verifiable, and privacy-preserving on-chain lottery game",
+  description: "A fair, verifiable, and privacy-preserving on-chain lottery game based on Zama FHEVM",
 };
 
 export default function RootLayout({

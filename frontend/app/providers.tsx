@@ -5,6 +5,10 @@ import { MetaMaskProvider } from "@/hooks/metamask/useMetaMaskProvider";
 import { MetaMaskEthersSignerProvider } from "@/hooks/metamask/useMetaMaskEthersSigner";
 import { InMemoryStorageProvider } from "@/hooks/useInMemoryStorage";
 
+/**
+ * Root providers component that wraps the app with necessary context providers
+ * Includes MetaMask integration and in-memory storage for FHEVM decryption signatures
+ */
 export function Providers({ children }: { children: ReactNode }) {
   return (
     <MetaMaskProvider>
