@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 // Get basePath from environment variable, default to empty string
+// This is useful for GitHub Pages deployment
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const nextConfig: NextConfig = {
