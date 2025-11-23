@@ -17,6 +17,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
+  "_comment": "Relayer SDK and FHEVM dependencies updated",
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@fhevm/mock-utils": "0.3.0-1",
